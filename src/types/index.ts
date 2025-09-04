@@ -25,6 +25,7 @@ export interface SyncResult {
   success: boolean;
   synced_items: number;
   failed_items: number;
+   conflicts: number;
   errors: SyncError[];
 }
 
